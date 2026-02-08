@@ -1,0 +1,24 @@
+{
+  "contactos": [
+    {
+      "nombre": "Manu",
+      "telefonos": [
+        "1155959558",
+        "1133252569"
+      ]
+    },
+    {
+      "nombre": "Agus",
+      "telefonos": [
+        "1177887788"
+      ]
+    },
+    {
+      "nombre": "Ana",
+      "telefonos": [
+        "112345678",
+        "1198798787"
+      ]
+    }
+  ]
+}
