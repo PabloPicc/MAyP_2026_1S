@@ -22,8 +22,26 @@ def bisiesto():
                 bisiesto=True
     return bisiesto
         
+
     
+def fibo(num):
+    if num<=1:
+        return num
+    else:
+        return fibo(num-2)+fibo(num-1)
     
+
+def fibo_while(num):
+    i=1
+    ante=1
+    ult=0
+    fibo=1
+    while i<num:
+        fibo=
+        num=num+1
+    return fibo
+        
+
     
   
     
