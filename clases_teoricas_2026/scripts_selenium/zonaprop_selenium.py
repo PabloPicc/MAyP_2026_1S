@@ -24,11 +24,11 @@ def folleto_utdt(url):
     driver = webdriver.Chrome(options=chrome_options) # Intentar si está en PATH
     #Nos metemos en la URL
     driver.get(url)
-    time.sleep(3)
+    time.sleep(10)
     #Clickeamos para buscar propiedades
     boton_buscador=driver.find_element('xpath','//*[@id="react-filters-form"]/div/form/div/div[3]/div/div/ul/div/input')
     boton_buscador.click()
-    time.sleep(3)
+    time.sleep(10)
     #Ingresamos el barrio
     boton_buscador.send_keys("Belgrano")
     #Clickeamos buscar
